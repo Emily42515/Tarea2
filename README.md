@@ -13,4 +13,6 @@ Realizé esto con un timeout de 2 segundos
 
 #COMPONENTES CLAVES DEL SCRIPT
 
-*Configuración inicial - Utilizé la ip de 
+*Configuración inicial - Utilizé la ip de '189.142.124.12' con un rando de puertos del 1-200
+*Realizar la Socket Connection - Cree socket TCP con AF_INET y SOCK_STREAM para cada puerto
+*Detección de puerto - Con el comando connect_ex() retorna 0 si el puerto está abierto
