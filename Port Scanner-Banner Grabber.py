@@ -40,9 +40,8 @@ for puerto in range(puerto_inicio, puerto_fin + 1):
     print('-' * 50)
     
     print('Escaneo completado')
-<<<<<<< HEAD
-=======
 
     print('Escaneo completado')
 
->>>>>>> 212f51f (resuelvo conflicto y limpio repositorio)
+
+
