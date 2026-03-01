@@ -20,19 +20,38 @@ Realizé esto con un timeout de 2 segundos
 
 #EJEMPLO DE SALIDA
 
-Escaneando 127.0.0.1 de puerto 1 a 100...
---------------------------------------------------
+Escaneando 127.0.0.1 de puerto 1 a 100
+--------------------------------------
 Puerto 22: ABIERTO
-Banner: SSH-2.0-OpenSSH_8.2p1
+ Banner:SSH-2.0-OpenSSH_8.2p1
 Puerto 80: ABIERTO
-Banner: HTTP/1.1 200 OK
+ Banner: HTTP/1.1 200 OK
 Puerto 443: ABIERTO
-Banner: No disponible
---------------------------------------------------
+ Banner: No disponible
+-------------------------------------
 Escaneo completado
 
 En mi caso, al ejecutar el script con python solo apareció:
 
+Escaneando 189.142.124.12 de puerto 1 a 200...
+--------------------------------------------------
+--------------------------------------------------
+Escaneo completado
+Escaneo completado
+--------------------------------------------------
+Escaneo completado
+Escaneo completado
+--------------------------------------------------
+Escaneo completado
+Escaneo completado
+--------------------------------------------------
+Escaneo completado
+Escaneo completado
+--------------------------------------------------
+Escaneo completado
+Escaneo completado
 
+Y así sucesivamente, esto debido a que no tenía ningún puerto abierto
 
+Este script nos muestra que puerto se ncuentra abierto en la escala que desees y con la dirección ip que gustes 
 
